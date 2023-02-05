@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>param</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./fevicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/port.png">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">Parambir Kumar</a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="navbar-link" data-nav-link>Works</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="navbar-link" data-nav-link>Skills</a>
+          </li>
+
+        
+
+          <li>
+            <a href="#price" class="navbar-link" data-nav-link>Other Skills</a>
+          </li>
+
+         
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="hero">
+        <div class="container">
+
+          <figure class="hero-banner img-holder has-before" style="--width: 640; --height: 840;">
+            <img src="./assets/images/img.jpg" width="640" height="840" alt="Bernard Smith" class="img-cover">
+          </figure>
+
+          <div class="hero-content">
+
+            <p class="section-subtitle">Find me!</p>
+
+            <h1 class="h1 hero-title">Learning   Developing  Growing and more...</h1>
+
+            <ul class="hero-list">
+
+              <li>
+                <a href="#" class="list-link">
+                  <span class="span">Web Development</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="list-link">
+                  <span class="span">Backend Developer</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="list-link">
+                  <span class="span">Software Development</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+
+            <ul class="exp-list">
+
+              <li class="list-item">
+                <strong class="strong"><ion-icon name="clipboard" aria-hidden="true"></ion-icon></strong>
+
+                <span class="span">
+                  <a href="#portfolio">Explore <br>
+                  Project
+                </a>
+                </span>
+              </li>
+
+              <li class="list-item">
+                <strong class="strong"><ion-icon name="document" aria-hidden="true"></ion-icon></strong>
+
+                <span class="span">
+                  <a href="assets/Resume/Param_Mainpdf.pdf" target="_blank" title="Read PDF">View <br>
+                    Resume</a>
+                </span>
+              </li>
+
+            </ul>
+
+            <a href="#portfolio" class="slide-down-btn" aria-label="scroll down">
+              <ion-icon name="arrow-down" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="section portfolio" id="portfolio" aria-label="portfolio">
+        <div class="container">
+
+          <p class="section-subtitle">Portfolio</p>
+
+          <h2 class="h2 section-title">Selected Works</h2>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="./assets/images/portfolio-1.jpg" width="600" height="675" loading="lazy" alt="Magic Art"
+                    class="img-cover">
+                </figure>
+
+                <a href="#" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">Magic Art</h3>
+
+                  <p class="card-text">Vimeo</p>
+
+                </a>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="./assets/images/portfolio-2.jpg" width="600" height="675" loading="lazy" alt="Bona Green"
+                    class="img-cover">
+                </figure>
+
+                <a href="#" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">Bona Green</h3>
+
+                  <p class="card-text">Youtube</p>
+
+                </a>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="./assets/images/portfolio-3.jpg" width="600" height="675" loading="lazy" alt="Leo Dandora"
+                    class="img-cover">
+                </figure>
+
+                <a href="#" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">Leo Dandora</h3>
+
+                  <p class="card-text">Soundcloud</p>
+
+                </a>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="./assets/images/portfolio-4.jpg" width="600" height="675" loading="lazy" alt="Folio Grasia"
+                    class="img-cover">
+                </figure>
+
+                <a href="#" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">Folio Grasia</h3>
+
+                  <p class="card-text">Detail</p>
+
+                </a>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="./assets/images/portfolio-5.jpg" width="600" height="675" loading="lazy" alt="Viva Mercury"
+                    class="img-cover">
+                </figure>
+
+                <a href="#" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">Viva Mercury</h3>
+
+                  <p class="card-text">Image</p>
+
+                </a>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="./assets/images/portfolio-6.jpg" width="600" height="675" loading="lazy" alt="Santa Onera"
+                    class="img-cover">
+                </figure>
+
+                <a href="#" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">Santa Onera</h3>
+
+                  <p class="card-text">Image</p>
+
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="section skills has-before" id="skills" aria-label="skills"
+        style="background-image: url('./assets/images/skills-bg.png')">
+        <div class="container">
+
+          <div class="skills-content">
+
+            <p class="section-subtitle">Skills</p>
+
+            <h2 class="h2 section-title">Proficeient Skills</h2>
+
+            <p class="section-text">
+              Learning and developing modern Web Development, new
+              generation web and
+              app programming language.
+            </p>
+
+            <ul class="skills-list">
+
+              <li class="skills-item">
+                <div class="wrapper">
+                  <h3 class="skill-title">HTML & CSS</h3>
+
+                  <data class="skill-value" value="95%">95%</data>
+                </div>
+
+                <div class="progress-box">
+                  <div class="progress" style="width: 95%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="wrapper">
+                  <h3 class="skill-title">JavaScript</h3>
+
+                  <data class="skill-value" value="80%">80%</data>
+                </div>
+
+                <div class="progress-box">
+                  <div class="progress" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="wrapper">
+                  <h3 class="skill-title">Java</h3>
+
+                  <data class="skill-value" value="90%">90%</data>
+                </div>
+
+                <div class="progress-box">
+                  <div class="progress" style="width: 90%"></div>
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div class="skills-banner has-before"></div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #Other Skills
+      -->
+
+      <section class="section pricing" id="price" aria-label="price">
+        <div class="container">
+
+          <div class="pricing-content">
+
+            <p class="section-subtitle">More</p>
+
+            <h2 class="h2 section-title">Other Skills</h2>
+
+            <p class="section-text">
+              Passionate to learning and development.
+            </p>
+
+          </div>
+
+          <ul class="pricing-list">
+
+            <li>
+              <div class="pricing-card">
+                <ion-icon name="logo-python" aria-hidden="true"></ion-icon>
+
+                <h3 class="card-title">Python</h3>
+
+                <data class="card-price" value="500">80%</data>
+              </div>
+            </li>
+
+            <li>
+              <div class="pricing-card">
+                <ion-icon name="logo-html5" aria-hidden="true"></ion-icon>
+
+                <h3 class="card-title">HTML</h3>
+
+                <data class="card-price" value="400">50%</data>
+              </div>
+            </li>
+
+            <li>
+              <div class="pricing-card">
+                <ion-icon name="reader" aria-hidden="true"></ion-icon>
+
+                <h3 class="card-title">MongoDB</h3>
+
+                <data class="card-price" value="300">50%</data>
+              </div>
+            </li>
+
+            <li>
+              <div class="pricing-card">
+                <ion-icon name="clipboard" aria-hidden="true"></ion-icon>
+
+                <h3 class="card-title">Mysql</h3>
+
+                <data class="card-price" value="200">90%</data>
+              </div>
+            </li>
+
+            <li>
+              <div class="pricing-card">
+                <ion-icon name="image" aria-hidden="true"></ion-icon>
+
+                <h3 class="card-title">Bootstrap</h3>
+
+                <data class="card-price" value="100">50%</data>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" id="contact" aria-label="contact">
+        <div class="container">
+
+          <div class="contact-content">
+
+            <p class="section-subtitle">Contact</p>
+
+            <h2 class="h2 section-title">Get In Touch</h2>
+
+            <p class="section-text">
+              Please fill out the form on this section to contact with me. Or call.
+              
+            </p>
+
+            <ul class="contact-list">
+
+              <li class="contact-item">
+                <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+
+                <address class="contact-link">
+                  Prayagraj Uttar Pradesh
+                </address>
+              </li>
+
+              <li class="contact-item">
+                <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+                <a href="tel:+07742691291" class="contact-link">+91 7061159407</a>
+              </li>
+
+              <li class="contact-item">
+                <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+                <a href="mailto:smith@gmail.com" class="contact-link">meparam07@gmail.com</a>
+              </li>
+
+              <li class="contact-item">
+                <ion-icon name="briefcase" aria-hidden="true"></ion-icon>
+
+                <a href="www.Mrparam07.github.io" class="contact-link">Mrparam07.github.io</a>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <form action="" class="contact-form">
+
+            <input type="text" name="name" aria-label="name" placeholder="Name" required class="input-field">
+
+            <input type="email" name="email_address" aria-label="email" placeholder="Email" required
+              class="input-field">
+
+            <textarea name="message" aria-label="message" placeholder="Message" required class="input-field"></textarea>
+
+            <button type="submit" class="submit-btn">
+              <span class="span">Submit</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </button>
+
+          </form>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        &copy; 2023. All rights reserved by <a href="#" class="copyright-link">@param</a>
+      </p>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://www.linkedin.com/in/parambir-kumar-268b1b233" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://twitter.com/Paramve55335431" class="social-link">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="document"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-dribbble"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://github.com/Mrparam07" class="social-link">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
